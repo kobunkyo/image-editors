@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title{
+    @apply text-2xl font-bold m-1 mt-5;
+}
+
+button{
+    @apply bg-blue-500 text-base text-white rounded-full w-40 h-10;
+}
+
+button:hover{
+    @apply bg-yellow-700;
+}
+
+.container{
+    @apply flex-col justify-center items-center min-w-full;
+}
